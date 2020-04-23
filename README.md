@@ -1,1 +1,1 @@
-chào
+This is personal card
