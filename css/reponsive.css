@@ -118,6 +118,25 @@
     margin-bottom: 1rem;
     color: #03A9F4;
 }
+#display {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.list-content {
+    font-size: 1rem;
+    color: #343a40;
+}
+#project-interest .project .content-project ul li p {
+    position: relative;
+    display: inline-flex;
+    margin: 0px 0px;
+    margin-top: -2px;
+    font-size: 1rem;
+    line-height: 2;
+    color: #343a40;
+    font-weight: 500;
+}
   /* mobile */
   .wrapper .nav-mobile {
     width: 100%;
