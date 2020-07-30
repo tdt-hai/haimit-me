@@ -115,12 +115,21 @@ nav .logo img{
 	font-weight: 400;
 	margin-bottom: 3rem;
 }
-.wrapper #about-me .about-content .about-content-p-from{
-	text-transform: uppercase;
+.wrapper #about-me .about-content {
+	/* text-transform: uppercase; */
     font-weight: 500;
 	font-size: 1.5rem;
 	margin-bottom: 3rem;
 	color: #343a40;
+}
+.about-content-p-from{
+	text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    color: #343a40;
+    margin-top: -26px;
+    margin-left: 221px;
 }
 .wrapper #about-me .about-content .about-content-p-from a{
 	color: #f1df11;
@@ -160,30 +169,30 @@ nav .logo img{
 #skills-me h2{
 	font-weight: 700;
     text-transform: uppercase;
-	color: #343a40;
+	color: #000000;
 	margin-bottom: 3rem;
 	font-size: 3rem;
 }
 #objective h2{
 	font-weight: 700;
     text-transform: uppercase;
-	color: #343a40;
+	color: 	#000000;
 	margin-bottom: 3rem;
 	font-size: 3rem;
 }
 #education h2{
 	font-weight: 700;
     text-transform: uppercase;
-	color: #343a40;
+	color: #000000;
 	margin-bottom: 3rem;
 	font-size: 3rem;
 }
-#skills-me .sub-icon{
+#skills-me .sub-icon {
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
-	color: #343a40;
+	color: #03A9F4;
 }
 .objective, .content-language{
     margin-right: 3.5rem;
@@ -213,7 +222,7 @@ nav .logo img{
 	font-weight: 500;
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
-	color: #343a40;
+	color: #03A9F4;
 }
 #skills-me .content-skills ul p{
 	font-size: 1.5rem;
@@ -230,13 +239,13 @@ nav .logo img{
 #project-interest h2{
 	font-weight: 700;
     text-transform: uppercase;
-	color: #343a40;
+	color: #000000;
 	margin-bottom: 3rem;
 	font-size: 3rem;
 }
 #project-interest .interest h3, .project h3 ,.education h3,.language h3{
-	color: #343a40;
-	font-size: 2rem;
+	color: #03A9F4;
+	font-size: 1.5rem;
 	margin-bottom: 0.8rem;
 }
 .education ,#h1{
@@ -247,32 +256,53 @@ nav .logo img{
     margin: 32px 46px;
 
 }
+
+
+
 #project-interest .project .content-project ul{
 	margin-left: 1.5em;
 	margin-bottom: 3rem;
 }
-#project-interest .project .content-project ul li{
+#project-interest .project .content-project ul li p {
 	position: relative;
-  line-height: 1.8;
-  color: #343a40;
+    /* line-height: 1.8;
+    color: #343a40; */
+    display: inline-flex;
+    margin: 0px 0px;
+	margin-top: -2px;
+	font-size: 1.1rem;
+    line-height: 2;
+    color: #343a40;
+    font-weight: 500;
 }
 #project-interest .project .content-project ul li a{
 	text-decoration: none;
-	color: #f1df11;
+	color: #3d5a98;
 	font-style: italic;
+	/* list-style: unset; */
   }
+.list-content{
+	font-size: 1.2rem;
+	color: #343a40;
+}
   #project-interest .project .content-project ul li a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 	color: #fe0000;
   }
-#project-interest .project .content-project ul li i{
+/* #project-interest .project .content-project ul li i{
 	color: #f1df11;
 	left: -2em;
-     width: 2em;
+    width: 2em;
     position: absolute;
     text-align: center;
     line-height: inherit;
+} */
+#display{
+	font-size: 1.3rem;
+	font-weight: 700;
 }
+
+
 #project-interest .interest .content-interest .language p{
 	line-height: 1.5;
 	color: #343a40;
