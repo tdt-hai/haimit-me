@@ -1,1 +1,1 @@
-This is personal card
+This is my CV
