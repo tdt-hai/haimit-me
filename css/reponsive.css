@@ -61,7 +61,7 @@
     width: 100%;
   }
   .wrapper #about-me .about-content h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     line-height: 3.5rem;
   }
   #project-interest h2 {
@@ -79,19 +79,44 @@
     font-size: 1rem;
   }
   #skills-me .content-skills ul p {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     margin-bottom: 1rem;
     color: #343a40;
     font-weight: 500;
   }
   #skills-me .content-skills ul li {
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 2;
     color: #343a40;
     font-weight: 500;
 }
 .education ul {
     margin: 13px 46px;
+}
+
+#about-me .social-contact a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+#project-interest .interest h3, .project h3, .education h3, .language h3 {
+    color: #03A9F4;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+#skills-me .sub-icon {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #03A9F4;
+}
+#skills-me .content-skills h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #03A9F4;
 }
   /* mobile */
   .wrapper .nav-mobile {
