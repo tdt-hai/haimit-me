@@ -20,3 +20,9 @@
 //     }
 //   }
 // };
+$(document).ready(function () {
+    $("#btnmenu").click(function(e){
+      e.preventDefault();
+      $('#menutop').slideToggle(500,"linear");
+    })
+  })

@@ -1,0 +1,105 @@
+@media (min-width: 240px) and (max-width: 480px) {
+  nav {
+    display: none;
+  }
+  .about-content-p-from {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    color: #343a40;
+    margin-top: -16px;
+    margin-left: 51px;
+  }
+  .detail {
+    margin-right: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #343a40;
+    margin-bottom: 1rem;
+  }
+
+  #objective h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    margin-top: 13px;
+  }
+  .objective, .content-language {
+    margin-right: 0rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #343a40;
+    margin-bottom: 0rem;
+}
+.education, #h1 {
+    font-size: 1rem;
+    color: #343a40;
+}
+#education h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 3rem;
+    font-size: 26px;
+}
+.content-hobbies {
+    margin-right: 3.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+  .wrapper #about-me,
+  #skills-me,
+  #project-interest,#objective,#education {
+    padding: 1rem;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper #about-me .about-content h1 {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+  #project-interest h2 {
+    font-size: 2rem;
+  }
+  #skills-me .skill-icon ul .icon-content-skill li {
+    margin-right: 1rem;
+    font-size: 2.2rem;
+  }
+  #skills-me h2 {
+    font-size: 2rem;
+    margin-top: 12px;
+  }
+  .wrapper #about-me .about-content {
+    font-size: 1rem;
+  }
+  #skills-me .content-skills ul p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+    font-weight: 500;
+  }
+  #skills-me .content-skills ul li {
+    font-size: 1rem;
+    line-height: 2;
+    color: #343a40;
+    font-weight: 500;
+}
+.education ul {
+    margin: 13px 46px;
+}
+  /* mobile */
+  .wrapper .nav-mobile {
+    width: 100%;
+    margin-bottom: 3rem;
+    height: 10%;
+    display: flex;
+    background: #f1df11;
+    position: relative;
+  }
+}
